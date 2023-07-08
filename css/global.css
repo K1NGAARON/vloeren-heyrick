@@ -282,22 +282,6 @@ img {
     display: none!important;
 }
 
-.wrapper .item {
-
-}
-
-.wrapper .item img {
-
-}
-
-.wrapper .item .content {
-
-}
-
-.wrapper .item .content h3 {
-
-}
-
 @media all and (max-width: 540px) {
     .cookie-banner-wrapper {
         width: 100%;
