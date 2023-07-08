@@ -67,6 +67,10 @@
     transition: var(--transition);
 }
 
+.header .container .btn {
+    margin-bottom: 5px;
+}
+
 .header .primary-btn {
     margin-top: 0;
 }
@@ -132,7 +136,14 @@
 }
 
 .socials a {
+    color: var(--white);
     font-size: 24px;
+    transition: var(--transition);
+}
+
+.socials a:hover {
+    color: var(--primary);
+    transition: var(--transition);
 }
 
 .socials img {
