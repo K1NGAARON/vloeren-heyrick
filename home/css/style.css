@@ -54,7 +54,7 @@
 }
 
 .wrapper .item {
-    flex: 1 0 20%;
+    flex: 1 0 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -77,6 +77,16 @@
 
 .wrapper .item .content h3 {
     font-size: 24px;
+}
+
+.wrapper .item .content a {
+    margin-top: 20px;
+    transition: var(--transition);
+}
+
+.wrapper .item .content a:hover {
+    text-decoration: underline;
+    transition: var(--transition);
 }
 
 .wrapper.gallery-wrapper {
@@ -104,7 +114,6 @@
 .wrapper.gallery-wrapper .wrapper-item.small {
     flex: 1 0 30%
 }
-
 
 @media (max-width: 560px) {
     .banner {
