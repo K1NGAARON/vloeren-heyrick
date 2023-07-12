@@ -196,7 +196,6 @@
         background-color: var(--white);
     }
 
-
     .header .topnav-content-sm svg {
         fill: var(--primary);
         width: 25px;
@@ -204,5 +203,10 @@
 
     .header .topnav-content-sm svg:hover {
         cursor: pointer;
+    }
+
+    .header .logo, 
+    .footer .logo {
+        width: 75px;
     }
 }
