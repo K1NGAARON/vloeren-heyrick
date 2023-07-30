@@ -1,0 +1,8 @@
+.banner.section,
+.banner.section .row {
+    height: 80vh;
+}
+
+.banner p {
+    text-align: center;
+}
